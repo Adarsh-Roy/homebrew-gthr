@@ -7,17 +7,17 @@ class Gthr < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Adarsh-Roy/gthr/releases/download/v0.1.0/gthr-aarch64-apple-darwin.tar.gz"
-      sha256 "REPLACE_WITH_ACTUAL_SHA256_FOR_ARM64"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     else
       url "https://github.com/Adarsh-Roy/gthr/releases/download/v0.1.0/gthr-x86_64-apple-darwin.tar.gz"
-      sha256 "REPLACE_WITH_ACTUAL_SHA256_FOR_X86_64"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/Adarsh-Roy/gthr/releases/download/v0.1.0/gthr-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "REPLACE_WITH_ACTUAL_SHA256_FOR_LINUX"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     end
   end
 
