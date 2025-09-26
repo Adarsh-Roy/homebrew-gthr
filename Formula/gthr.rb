@@ -1,23 +1,23 @@
 class Gthr < Formula
   desc "A CLI tool for interactive directory text ingestion with fuzzy finder"
   homepage "https://github.com/Adarsh-Roy/gthr"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Adarsh-Roy/gthr/releases/download/v0.1.0/gthr-aarch64-apple-darwin.tar.gz"
-      sha256 "744ceb5156d80b9e3324f15067c599b1d98d17fece5e0569614f114c495dfedd"
+      url "https://github.com/Adarsh-Roy/gthr/releases/download/v0.1.1/gthr-aarch64-apple-darwin.tar.gz"
+      sha256 "25f1928315a499dff3ed2cb6f954397b8560ab3e2d117e3b83ea435fdef999ca"
     else
-      url "https://github.com/Adarsh-Roy/gthr/releases/download/v0.1.0/gthr-x86_64-apple-darwin.tar.gz"
-      sha256 "6dc62fd935076a4fe48b3e7604f3c4041c666f6d65539fd07164074539a2254a"
+      url "https://github.com/Adarsh-Roy/gthr/releases/download/v0.1.1/gthr-x86_64-apple-darwin.tar.gz"
+      sha256 "40428b777bbcf3c3ad580dd0eea1707e94247390dbb59beff1050a905eb86703"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/Adarsh-Roy/gthr/releases/download/v0.1.0/gthr-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "dcc41754ed4a4f5257273f292e5810b743561c9d8a8af56e5cba3e135ff9617e"
+      url "https://github.com/Adarsh-Roy/gthr/releases/download/v0.1.1/gthr-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "47575321013ca762c4664e2369b845a516c82815ad3c519223d3b414fc988f6a"
     end
   end
 
